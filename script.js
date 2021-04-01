@@ -13,5 +13,3 @@ function myFunction() {
             li[i].style.display = "none";
         }
     }
-}
-// Python, HTML, CSS, JS, Ruby, PHP, C, C++, C#, Perl
