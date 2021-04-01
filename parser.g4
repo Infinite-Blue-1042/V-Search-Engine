@@ -1,14 +1,13 @@
 primary
-    : LP expression RP                    # precedence
-    | ( OCTAL | HEX | INTEGER | DECIMAL ) # numeric
-    | TRUE                                # true
-    | FALSE                               # false
-    | NULL                                # null
-    | STRING                              # string
-    | REGEX                               # regex
-    | listinitializer                     # listinit
-    | mapinitializer                      # mapinit
-    | ID                                  # variable
-    | ID arguments                        # calllocal
-    | NEW type arguments                  # newobject
-    ;
+    : LP expression RP                   
+    | ( OCTAL | HEX | INTEGER | DECIMAL )
+    | TRUE                                
+    | FALSE                           
+    | NULL                            
+    | STRING                        
+    | REGEX                             
+    | listinitializer                 
+    | mapinitializer                    
+    | ID                                  
+    | ID arguments                       
+    | NEW type arguments                 
